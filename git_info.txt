@@ -1,0 +1,28 @@
+[git --version] err: Command 'git --version' timed out after 5 seconds
+
+[git config user.name]
+stdout: 
+stderr: 
+rc: 1
+
+[git config user.email]
+stdout: 
+stderr: 
+rc: 1
+
+[gh --version]
+stdout: 
+stderr: "gh" ­Ґ пў«пҐвбп ў­гваҐ­­Ґ© Ё«Ё ў­Ґи­Ґ©
+Є®¬ ­¤®©, ЁбЇ®«­пҐ¬®© Їа®Ја ¬¬®© Ё«Ё Ї ЄҐв­л¬ д ©«®¬.
+rc: 1
+
+[git remote -v]
+stdout: 
+stderr: fatal: not a git repository (or any of the parent directories): .git
+rc: 128
+
+cwd: D:\LOYHA\OmniAI
+
+OmniAI .git exists: False
+
+Parent .git exists: False
