@@ -1,0 +1,57 @@
+# OmniAI - Git ignore fayli
+# Bu yerda ko'rsatilgan fayllar Git'ga qo'shilmaydi
+
+# Muhit o'zgaruvchilari (maxfiy kalitlar)
+.env
+*.env
+.env.local
+.env.production
+
+# Python virtual muhiti
+venv/
+env/
+.venv/
+ENV/
+
+# Python kompilyatsiya fayllari
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+
+# Ma'lumotlar bazasi (mahalliy)
+instance/
+*.db
+*.sqlite3
+*.sqlite
+
+# Flask-Migrate
+migrations/versions/
+
+# Test natijalari
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# VS Code sozlamalari
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# OS fayllar
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log fayllar
+*.log
+logs/
+
+# Yuklanmalar (kelajakda)
+uploads/
+temp/

@@ -1,0 +1,24 @@
+﻿python.exe : D:\LOYHA\OmniAI\venv\Lib\site-packages\flask_limiter\extension.py:333: UserWarning: Using the in-memory st
+orage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See:
+ https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage bac
+kend.
+строка:1 знак:1
++ & "D:\LOYHA\OmniAI\venv\Scripts\python.exe" "D:\LOYHA\OmniAI\run.py"  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (D:\LOYHA\OmniAI...torage backend.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  warnings.warn(
+============================================================
+  OmniAI ishga tushmoqda...
+  Muhit: development
+  Debug: True
+  URL: http://localhost:5000
+============================================================
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.170:5000
+Press CTRL+C to quit

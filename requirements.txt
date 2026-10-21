@@ -1,0 +1,42 @@
+# OmniAI - Kerakli kutubxonalar
+# O'rnatish: pip install -r requirements.txt
+
+# Flask asosiy kutubxonalar
+Flask==3.0.3
+Flask-SQLAlchemy==3.1.1
+Flask-Migrate==4.0.7
+Flask-Login==0.6.3
+Flask-WTF==1.2.1
+WTForms==3.1.2
+
+# Xavfsizlik
+Werkzeug==3.0.3
+cryptography==43.0.1
+
+# Rate limiting
+Flask-Limiter==3.8.0
+
+# CORS (API uchun)
+Flask-CORS==4.0.1
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Ma'lumotlar bazasi
+SQLAlchemy==2.0.35
+alembic==1.13.3
+
+# AI (OpenAI adapter - ixtiyoriy, API kaliti bo'lmasa fallback ishlaydi)
+openai==1.51.2
+
+# HTTP so'rovlar
+requests==2.32.3
+
+# Testlar
+pytest==8.3.3
+pytest-flask==1.3.0
+
+# CSV export uchun
+# (Python standart kutubxonasida mavjud - csv moduli)
+
+# Chart.js - frontend orqali CDN'dan yuklanadi (pip kerak emas)
